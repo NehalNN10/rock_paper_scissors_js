@@ -5,13 +5,43 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
     </head>
 
-    <body>
-        <button id="rockBtn">Rock</button>
-        <button id="paperBtn">Paper</button>
-        <button id="scissorsBtn">Scissors</button>
-        <div class="result"></div>
+    <div>
+        <h1 id="title">Rock, Paper, Scissors!</h1>
+        <div class="scoreContainer">
+            <div id="human-score-holder">
+                <div class="score-title">
+                    <h3>You</h3>
+                </div>
+                <div class="score-number">
+                    <p id="human-score">0</p>
+                </div>
+            </div>
+            <div id="computer-score-holder">
+                <div class="score-title">
+                    <h3>AI</h3>
+                </div>
+                <div class="score-number">
+                    <p id="computer-score">0</p>
+                </div>
+            </div>
+        </div>
+        <h3>Pick your option</h3>
+        <div class="btn-container">
+            <button id="rockBtn">Rock</button>
+            <button id="paperBtn">Paper</button>
+            <button id="scissorsBtn">Scissors</button>
+        </div>
+        <h3>Console:</h3>
+        <div class="result">
+            
+        </div>
+        <div class="btn-container">
+            <button id="restartBtn">Restart</button>
+        </div>
         <script src="script.js"></script>
     </body>
 
