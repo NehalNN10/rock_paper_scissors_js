@@ -33,6 +33,7 @@ body
     background-color: red;
     color: white;
     height: 40%;
+    border-radius: 10px 10px 0 0;
 }
 
 .score-title h3
@@ -47,6 +48,7 @@ body
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
+    border-radius: 0 0 10px 10px;
 }
 
 .score-number p
@@ -128,7 +130,7 @@ h3
 
 .finalWinner
 {
-    color: gold;
+    color: blue;
 }
 
 #restartBtn

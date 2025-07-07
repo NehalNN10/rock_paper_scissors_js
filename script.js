@@ -114,10 +114,9 @@ function playRound(humanSelection, computerSelection, winningPoints=5) {
 		// resultOutput.textContent += msg + '\n';
 		resultOutput.appendChild(msg);
 		// rounds++;
-	}
-	else
-	{
-		displayWinner();
+		// gameOver = true;
+		if (humanScore === 5 || computerScore === 5)
+			displayWinner();
 	}
 	updateScores();
 }
